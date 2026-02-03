@@ -1,0 +1,7 @@
+{
+  "case_id": "case_001",
+  "category": "test_failure",
+  "must_contain": ["pytest", "AssertionError", "tests/test_math.py"],
+  "forbidden_contain": ["segmentation fault"],
+  "min_next_steps": 2
+}

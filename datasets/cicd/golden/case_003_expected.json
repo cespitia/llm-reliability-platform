@@ -1,0 +1,7 @@
+{
+  "case_id": "case_003",
+  "category": "lint_failure",
+  "must_contain": ["ruff", "F401", "imported but unused"],
+  "forbidden_contain": ["permission denied"],
+  "min_next_steps": 2
+}

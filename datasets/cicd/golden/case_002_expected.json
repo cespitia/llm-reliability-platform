@@ -1,0 +1,7 @@
+{
+  "case_id": "case_002",
+  "category": "build_failure",
+  "must_contain": ["npm run build", "TS2322", "PlanTable.tsx"],
+  "forbidden_contain": ["OutOfMemory"],
+  "min_next_steps": 2
+}

@@ -1,0 +1,7 @@
+{
+  "case_id": "case_004",
+  "category": "dependency_failure",
+  "must_contain": ["npm ci", "ERESOLVE", "dependency tree"],
+  "forbidden_contain": ["pytest"],
+  "min_next_steps": 2
+}

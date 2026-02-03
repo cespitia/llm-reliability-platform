@@ -1,0 +1,7 @@
+{
+  "case_id": "case_006",
+  "category": "test_failure",
+  "must_contain": ["TimeoutError", "exceeded 60s", "tests/test_api.py"],
+  "forbidden_contain": ["ERESOLVE"],
+  "min_next_steps": 2
+}

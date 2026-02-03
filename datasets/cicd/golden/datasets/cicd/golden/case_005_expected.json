@@ -1,0 +1,7 @@
+{
+  "case_id": "case_005",
+  "category": "build_failure",
+  "must_contain": ["pip install", "requires a different Python", ">=3.11"],
+  "forbidden_contain": ["TS2322"],
+  "min_next_steps": 2
+}
